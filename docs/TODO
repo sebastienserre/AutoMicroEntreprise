@@ -1,0 +1,7 @@
+
+ - simplify javascript
+ - use css files instead of style/html tags (this would
+	improve details printed page)
+ - rounded values at taxes level ?
+ - let the user define/handle/delete taxs categories ?
+ -

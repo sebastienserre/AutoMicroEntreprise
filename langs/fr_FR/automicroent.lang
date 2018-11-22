@@ -1,0 +1,121 @@
+# Dolibarr language file - fr_FR - AutoMicroEntreprise Module
+CHARSET=UTF-8
+Module451050Name=Auto Micro Entreprise
+Module451050Desc=Analyse des recettes et génération de rapports par produits / services
+
+Permission451051=Consulter les rapports du module Auto Micro Entreprise
+
+AME_PermissionIssue=Vous n'avez pas les droits pour afficher cette page.
+
+AME_MenuLink0=Auto Micro Entreprise
+AME_MenuLink1=Bilan par produits / services
+
+AME_Setup=Configuration du module Auto Micro Entreprise
+AME_Register=Enregistrer
+
+AME_EstimatedLoads=Estimation des charges
+AME_TaxesCat01=Cotisations et Contributions Sociales
+AME_TaxesCat02=Frais de Chambres Consulaires
+AME_TaxesCat03=Contribution à la Formation Professionnelle
+AME_TaxesCat04=Autres
+
+AME_YearsSelectDesc=Le sélecteur ci-dessous présente les années pour lesquelles des taxes sont enregistrées dans la base de données.<br />Pour supprimer une année du sélecteur, vous devez supprimer toutes les taxes de cette année.<br />Les calculs concernant l'estimation des charges ne s'effectueront que si des taxes sont enregistrées pour l'année correspondante.
+AME_SelectedYear=Année sélectionnée :
+
+AME_TableColonDelete=Suppr.
+AME_TableColonName=Nom
+AME_TableColonComment=Commentaire
+AME_TableColonYear=Année
+AME_TableColonType=Type
+AME_TableColonValue=Valeur
+AME_TableColonRound=Arrondi
+AME_TableColonModification=Modif.
+AME_Category=Catégorie
+
+# XXX : rounded values at taxes level ?
+# AME_TaxRoundHelp=Après multiplication du chiffre d'affaire concerné par le pourcentage de la taxe, le nombre obtenu sera (ou non) arrondi de la manière choisie. Les <b>Cotisations et contributions sociales</b> et <b>Frais de Chambres Consulaires</b> devraient être arrondis à l'entier inférieur. La <b>Contribution à la Formation Professionnelle</b> devrait être arrondie à l'entier le plus proche. Faites votre choix.
+AME_TaxRound_None_Short=aucun
+AME_TaxRound_Floor_Short=entier inférieur
+AME_TaxRound_Round_Short=entier le plus proche
+AME_TaxRound_Ceil_Short=entier supérieur
+AME_TaxRound_None=aucun arrondi
+AME_TaxRound_Floor=arrondi à l'entier inférieur
+AME_TaxRound_Round=arrondi à l'entier le plus proche
+AME_TaxRound_Ceil=arrondi à l'entier supérieur
+AME_TaxRound_None_Info=Dans cette catégorie, la somme des résultats des taxes calculées ne sera pas arrondie.
+AME_TaxRound_Floor_Info=Dans cette catégorie, la somme des résultats des taxes calculées sera arrondie à l'entier inférieur.
+AME_TaxRound_Round_Info=Dans cette catégorie, la somme des résultats des taxes calculées sera arrondie à l'entier le plus proche.
+AME_TaxRound_Ceil_Info=Dans cette catégorie, la somme des résultats des taxes calculées sera arrondie à l'entier supérieur.
+
+AME_NoRecordedTaxForThisYear=Aucune taxe enregistrée dans cette catégorie pour l'année %s.
+
+AME_ModifyThisTax=Modifier cette taxe
+AME_NoResult=Aucun résultat avec la valeur %s.
+
+AME_InsertTitle=Insertion d'une nouvelle taxe
+AME_EditTitle=Modification d'une taxe
+AME_BackToPreviousPage=Retour à la page précédente
+AME_TaxUpdateSuccess=La taxe a bien été modifiée.
+AME_TaxUpdateFailure=La taxe n'a pas été modifiée.<br />%s
+AME_TaxInsertSuccess=La taxe a bien été enregistrée.
+
+AME_RecordNewYear=Enregistrer une nouvelle année...
+AME_PleaseSelectNewYear=Veuillez sélectionner une année à ajouter :
+
+AME_DeleteYear=Supprimer l'année %s
+AME_DeleteYearDisabled=Pour supprimer l'année %s, vous devez supprimer toutes les taxes de cette année.
+AME_YearWasDeleted=L'année %s a été supprimée du sélecteur.
+AME_YearWasNotDeleted=L'année %s n'a pas été supprimée du sélecteur.<br />Une erreur est survenue : %s
+AME_NewTax=Enregistrer une nouvelle taxe
+
+AME_DeleteSelectedTaxes=Supprimer les taxes sélectionnées
+AME_TaxWasDeleted=%s taxe a été supprimée.
+AME_TaxesWereDeleted=%s taxes ont été supprimées.
+
+AME_EstimatedLoadsDetails=Détails du calcul de l'estimation des charges pour le trimestre %s de l'année %s
+AME_EstimatedLoadsDetailsTitle=Détails du calcul de l'estimation des charges - Trimestre %s - Année %s
+AME_EstimatedLoadsCalculationDetails=Détails du calcul de l'estimation des charges
+AME_EstimatedLoadsDetailsByMonths=Résultats de l'estimation des charges - Trimestre %s - Année %s - Mois par Mois
+
+AME_EstimatedLoadsMonthByMonthExplanation=Le tableau ci-dessous présente les résultats de l'estimation des charges mois par mois, catégorie par catégorie, ainsi que les totaux respectifs.<br />Pour chaque estimation, le calcul suit le même principe que dans le tableau précédent.<br />Vous remarquerez peut-être que le total final <b/>en bas à droite</b> diffère quelque peu du résultat final du tableau précédent (mais jamais plus de quelques euros).<br />Ceci est tout à fait normal, puisqu'en mathématiques, la somme des arrondis est rarement égale à l'arrondi des sommes.<br />En conséquence, les chiffres ci-dessous ne sont donnés qu'à titre indicatif : la valeur à retenir pour l'estimation totale des charges est celle du tableau précédent.
+AME_2015RoundExplanation=Jusqu'au 31 décembre 2015, les arrondis dans les catégories Cotisations et Contributions Sociales, et Frais de Chambres Consulaires s'effectuaient à l'entier inférieur.
+AME_2016RoundExplanation=Depuis le 1er janvier 2016, ces arrondis semblent variables et imprévisibles selon les trimestres. Par exemple, ils peuvent être à l'arrondi le plus proche lors d'un trimestre, et à l'arrondi inférieur le trimestre suivant.<br /><br />Par conséquent, pour les calculs dans ce module, ces arrondis ont été fixés à l'entier le plus proche à partir du 1er janvier 2016. Il est donc possible, du fait de ces « arrondis variables », que la <b>somme des arrondis</b> dans le tableau suivant puisse ne pas être tout à fait égale à votre déclaration trimestrielle (si vous trouvez une référence officielle qui détaille la façon dont sont effectués les calculs et les arrondis, merci de nous la transmettre).
+
+AME_RecordedTaxsList=Liste des taxes enregistrées pour l'année %s
+AME_QuarterTurnoversByType=Chiffres d'affaires du trimestre %s de l'année %s par type
+AME_UsedTurnover=Chiffre d'affaires utilisé
+AME_UsedRate=Taux utilisé
+AME_OperationResult=Résultat
+AME_RoundType=Type d'arrondi
+
+AME_RoundsSum=Somme des arrondis :
+
+AME_IntegerButtonsHelp=Utilisez les boutons ci-dessous pour modifier la <b>partie entière</b> de la valeur du pourcentage.
+AME_DecimalButtonsHelp=Utilisez les boutons ci-dessous pour modifier la <b>partie décimale</b> de la valeur du pourcentage.
+
+AME_ProductsAndServices=Produits et Services
+AME_Products=Produits
+AME_Services=Services
+AME_NoResultForThisPeriod=Aucun résultat pour la période d'analyse.
+
+AME_ReportName=Détail des recettes par produits / services.
+AME_ReportDesc=Le tableau ci-dessous présente les chiffres d'affaires mensuels, trimestriels et annuels par produits/services, ainsi que leurs cumuls respectifs.<br />Il présente également un chiffre d'estimation des charges calculé en fonction des taxes enregistrées dans la configuration du module.<br />Les calculs concernant l'estimation des charges ne s'effectueront que si des taxes sont enregistrées pour l'année correspondante.<br />Vous pouvez cliquer sur chacun des chiffres de l'estimation des charges pour afficher le détail du calcul.
+
+AME_Sums=Totaux
+AME_Quarter=Trimestre
+AME_YearSum=Total année
+AME_Accumulation=Cumul
+
+AME_Distribution=Détails de répartition des paiements partiels
+AME_PartialPaymentEx=En cas de paiement partiel sur une facture, le paiement reçu est utilisé en priorité pour payer les éventuels produits sur la facture.
+AME_Reference=Référence
+AME_Invoice=Facture
+AME_Month=Mois
+AME_Year=Année
+AME_InvoiceAmount=Montant Facture
+AME_PaymentAmount=Paiement Reçu
+
+AME_PercentageAccuracy=Précision du pourcentage
+AME_PercentageAccuracyHelp=Avec deux décimales après la virgule, vous pourrez définir le valeur du pourcentage de <b>0.00</b> %% à <b>99.99</b> %%.<br />Avec trois décimales, cela sera de <b>0.000</b> %% à <b>99.999</b> %%.
+AME_TwoDecimals=Deux décimales après la virgule
+AME_ThreeDecimals=Trois décimales après la virgule

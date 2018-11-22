@@ -1,0 +1,41 @@
+
+Auto Micro Entreprise - Version 7.0.1
+
+ Exigences :
+ -----------
+ Version min dolibarr : 7.0.x
+ Versions de dolibarr testées : 7.0.x 8.0.x
+
+ Notes de mise à jour depuis précédente version :
+ ------------------------------------------------
+ À partir de la version 7.0.x du module, les identifiants du module et des
+ permissions ont été modifiés. En conséquence, si vous mettez à jour ce module
+ depuis une version précédente, avant de procéder à l'installation classique
+ du module (décrite ci-dessous), vous devriez effectuer les opérations suivantes
+ dans l'administration de dolibarr :
+
+ 1 - désactiver les permissions concernant ce module pour chaque utilisateur
+ 2 - désactiver le module dans la configuration
+
+ De façon générale, lorsque vous effectuez une mise à jour du module depuis
+ une précédente version, vous devez, dans la configuration de dolibarr, désactiver
+ le module avant de suivre la procédure d'installation ci-dessous.
+
+ Installation :
+ --------------
+
+ 1 - Placez le fichier zip dans le répertoire racine de dolibarr.
+
+ 2 - Decompressez le fichier zip, par exemple par la commande :
+        unzip fichiermodule.zip
+
+	Vous devez obtenir l'arborescence suivante :
+		dolibarr/htdocs/deliveriesnote
+
+ 3 - Le module est alors disponible et activable dans la configuration de dolibarr
+
+ 4 - Une fois le module installé et activé dans la configuration de
+	dolibarr, allez sur la page de l'onglet « Comptabilité ».
+	Sur la gauche, un bloc de menu « Auto Micro Entreprise » est alors disponible.
+
+ 5 - N'oubliez pas d'ajuster les permissions de vos utilisateurs concernant ce module.

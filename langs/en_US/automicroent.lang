@@ -1,0 +1,121 @@
+# Dolibarr language file - en_US - AutoMicroEntreprise Module
+CHARSET=UTF-8
+Module451050Name=Auto Micro Entreprise
+Module451050Desc=Analysis of receipts and generation of reports by products/services
+
+Permission451051=View reports by Auto Micro Entreprise module
+
+AME_PermissionIssue=You don't have permission to view this page
+
+AME_MenuLink0=Auto Micro Entreprise
+AME_MenuLink1=Summary - products/services
+
+AME_Setup=Configuration of Auto Micro Entreprise module
+AME_Register=Save
+
+AME_EstimatedLoads=Estimate of charges
+AME_TaxesCat01=Charges and social contributions
+AME_TaxesCat02=Professional chamber fees
+AME_TaxesCat03=Contribution to professional training
+AME_TaxesCat04=Other
+
+AME_YearsSelectDesc=The selector below shows years for which taxes and rates are recorded in the database.<br />To delete a year from the selector, you must delete all taxes from the corresponding year.
+AME_SelectedYear=Selected year:
+
+AME_TableColonDelete=Delete
+AME_TableColonName=Name
+AME_TableColonComment=Remarks
+AME_TableColonYear=Year
+AME_TableColonType=Type
+AME_TableColonValue=Value
+AME_TableColonRound=Rounded result
+AME_TableColonModification=Modify
+AME_Category=Category
+
+# XXX : rounded values at taxes level ?
+# AME_TaxRoundHelp=Après multiplication du chiffre d'affaire concerné par le pourcentage de la taxe, le nombre obtenu sera (ou non) arrondi de la manière choisie. Les <b>Cotisations et contributions sociales</b> et <b>Frais de Chambres Consulaires</b> devraient être arrondis à l'entier inférieur. La <b>Contribution à la Formation Professionnelle</b> devrait être arrondie à l'entier le plus proche. Faites votre choix.
+AME_TaxRound_None_Short=None
+AME_TaxRound_Floor_Short=Whole number down
+AME_TaxRound_Round_Short=Nearest whole number
+AME_TaxRound_Ceil_Short=Whole number up
+AME_TaxRound_None=No rounding
+AME_TaxRound_Floor=rounding to whole number down ('floor')
+AME_TaxRound_Round=rounding to the nearest whole number
+AME_TaxRound_Ceil=rounding to whole number up ('ceiling')
+AME_TaxRound_None_Info=No rounding will be applied to the calculated total in this category.
+AME_TaxRound_Floor_Info=The calculated total in this category will be rounded down to the nearest whole number.
+AME_TaxRound_Round_Info=The calculated total in this category will be rounded to the nearest whole number.
+AME_TaxRound_Ceil_Info=The calculated total in this category will be rounded up to the nearest whole number.
+
+AME_NoRecordedTaxForThisYear=No taxes saved in this category for %s.
+
+AME_ModifyThisTax=Modify this tax
+AME_NoResult=No result with the value %s.
+
+AME_InsertTitle=Add a new tax
+AME_EditTitle=Modify a tax
+AME_BackToPreviousPage=Back to previous page
+AME_TaxUpdateSuccess=Tax updated successfully.
+AME_TaxUpdateFailure=The tax was not changed.<br />%s
+AME_TaxInsertSuccess=Tax saved successfully.
+
+AME_RecordNewYear=Add a new year ...
+AME_PleaseSelectNewYear=Please select a year to be added:
+
+AME_DeleteYear=Delete %s
+AME_DeleteYearDisabled=To remove the year %s, you must delete all taxes for the year.
+AME_YearWasDeleted=The year %s has been removed from the selector.
+AME_YearWasNotDeleted=The year %s was not removed.<br />Error: %s
+AME_NewTax=Add a new tax
+
+AME_DeleteSelectedTaxes=Delete the selected taxes
+AME_TaxWasDeleted=%s tax has been deleted.
+AME_TaxesWereDeleted=%s taxes have been deleted.
+
+AME_EstimatedLoadsDetails=Details of estimated charges for quarter %s of %s
+AME_EstimatedLoadsDetailsTitle=Details of estimated charges - Quarter %s - Year %s
+AME_EstimatedLoadsCalculationDetails=Details of estimated charges
+AME_EstimatedLoadsDetailsByMonths=Estimated charges - Quarter %s - Year %s - by month
+
+AME_EstimatedLoadsMonthByMonthExplanation=The table below shows the estimated charges by month and by category, together with their respective totals.<br />For each estimation, the calculation follows the same principles as the previous table.<br />You may see that the grand total <b>at the bottom right</b> differs slightly from the rounded total in the previous table (but never by more than a few Euros).<br />This is normal and is due to the mathematical differences between adding rounded figures, compared to rounding the result.<br />Consequently, the figures below are given as an indication only: the more accurate estimation of charges is given in the table above.
+AME_2015RoundExplanation=Up to 31st December 2015, figures for the <i>Charges and social contributions</i> and <i>Professional chamber fees</i> categories were rounded down.
+AME_2016RoundExplanation=Since 1st January 2016, the rounding appears to be variable and unpredictable each quarter. For example, the figures could be rounded to the nearest whole number in one quarter, but rounded down the following quarter.<br /><br />Consequently, for calculations in this module, rounding is to the nearest whole number from 1st January 2016. It is therefore possible, due to this 'variable rounding', that the <b>sum of the rounded results</b> in the following table may not be exactly equal to your quarterly declaration. (The developer would welcome an official reference detailing the calculation and rounding policy, if you know of such a reference.)
+
+AME_RecordedTaxsList=List of taxes recorded for %s
+AME_QuarterTurnoversByType=Turnover for quarter %s of %s by type
+AME_UsedTurnover=Turnover used
+AME_UsedRate=Rate used
+AME_OperationResult=Result
+AME_RoundType=Type of rounding
+
+AME_RoundsSum=Rounded total:
+
+AME_IntegerButtonsHelp=Use the buttons below to change the <b>whole number part</b> of the percentage rate.
+AME_DecimalButtonsHelp=Use the buttons below to change the <b>decimal part</b> of the percentage rate.
+
+AME_ProductsAndServices=Products and Services
+AME_Products=Products
+AME_Services=Services
+AME_NoResultForThisPeriod=No result for this period.
+
+AME_ReportName=Detailed receipts by products/services.
+AME_ReportDesc=The table below shows turnover by month, quarter and year, by products and services, as well as their respective totals.<br />It also shows an estimate of charges due, according to the taxes and rates set in the module configuration.<br />Estimates of charges due can only be made if taxes and rates are set for the corresponding year.<br />You can click on each of the charges estimates to show the calculation.
+
+AME_Sums=Totals
+AME_Quarter=Quarter
+AME_YearSum=Year total
+AME_Accumulation=Total to date
+
+AME_Distribution=Distribution details for part-payment
+AME_PartialPaymentEx=In case of part-payment of an invoice, receipts are first applied to payment for products.
+AME_Reference=Reference
+AME_Invoice=Invoice
+AME_Month=Month
+AME_Year=Year
+AME_InvoiceAmount=Invoice total
+AME_PaymentAmount=Payment received
+
+AME_PercentageAccuracy=Percentage accuracy
+AME_PercentageAccuracyHelp=For two decimal places: percentge values between <b>0.00</b>%% and <b>99.99</b>%%;<br />for three decimal places, between <b>0.000</b>%% and <b>99.999</b>%%.
+AME_TwoDecimals=Two decimal places
+AME_ThreeDecimals=Three decimal places

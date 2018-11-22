@@ -1,0 +1,56 @@
+
+ *** version 7.0.1 - 2018-09-03
+	* Maintenance update
+	* Bring back module menu pages from «billing» to «accountancy»
+	  section in the top menu
+	* The module now depends on «modComptabilite» internal module
+
+ *** version 7.0.0 - 2018-08-28
+	* Maintenance update - drop support for dolibarr < 7
+	* Move module from «accountancy» to «billing» top menu
+	* Update description file with newest one coming from
+	  dolibarr 7, and update code accordingly
+	* Minor fixs
+
+ *** Version 3.8.1
+	* Maintenance update
+	* Fix invoices links into partial payments distribution table
+	    after dolibarr >= 6.0.0 (thanks to Nicholas WASTELL)
+	* Update en_US language file (again thanks to Nicholas WASTELL)
+
+ *** Version 3.8.0
+	* Maintenance update
+	* Fix « delete year » button in module configuration
+	* Add support to multicompany third party module
+	    (thanks to Sylvain Legrand)
+	* Change round type to « round » for each category
+	    after 1st jan. 2016
+	* Improve details page. Add table showing estimated
+	    loads by month
+	* Fix print link on details page.
+
+ *** Version 3.7.2
+	* Allow to define taxes with more accurate values
+	* Fix call to undefined function money_format()
+	     (not available on Windows)
+
+ *** Version 3.7.1
+	* Major update. Rewrote most of the module. New features
+	* Add ability to define taxs splitted into 4 predefined categories
+	* Rewrote how estimated loads are calculated
+	* Due to rewriting, some minor and rare bugs were fixed
+	* Add estimated loads details page
+
+ *** Version 3.5.3
+	* Remove extra spaces from sql file
+	* Add (untranslated) en_US lang skeleton file
+	* Allow to run module from a custom directory
+	* Minor changes
+
+ *** Version 3.4.1
+	* Module ID update
+	* Fix for potential «header already sent» warnings
+
+ *** Version 3.3.2
+	* Initial version
+
