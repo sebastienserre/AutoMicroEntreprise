@@ -1,7 +1,9 @@
 # AutoMicroEntreprise Module FOR <a href="https://www.dolibarr.org">DOLIBARR ERP CRM</a>
 
 This module is currently unmaintained.
+
 Last tested dolibarr version : 8.0.x
+
 You can open bugs if you want, but they will probably be ignored.
 
 ## Features
