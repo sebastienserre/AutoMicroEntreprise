@@ -2,7 +2,7 @@
 
 This module is currently unmaintained.
 
-Last tested dolibarr version : 8.0.x
+Last tested dolibarr version : 10.0.x
 
 You can open bugs if you want, but they will probably be ignored.
 
