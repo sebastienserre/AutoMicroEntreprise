@@ -1,6 +1,6 @@
 # AutoMicroEntreprise Module FOR <a href="https://www.dolibarr.org">DOLIBARR ERP CRM</a>
 
-The original module is currently unmaintained.
+The original module (https://framagit.org/netfab/automicroent) is currently unmaintained.
 I try to maintain it for my personal need...
 
 Last tested dolibarr version : 11.0.x
