@@ -5,8 +5,6 @@ I try to maintain it for my personal need...
 
 Last tested dolibarr version : 11.0.x
 
-You can open bugs if you want, but they will probably be ignored.
-
 ## Features
 
 ![Screenshot 1](img/s01.png "screenshot 1"){imgmd}
