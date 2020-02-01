@@ -397,7 +397,7 @@ class reportData {
 
 		/* --- --- --- --- --- --- --- --- --- --- --- --- --- */
 
-		$sql2 = "SELECT fd.fk_facture AS fk_id, fd.total_ttc AS product_price, fd.product_type, f.facnumber ";
+		$sql2 = "SELECT fd.fk_facture AS fk_id, fd.total_ttc AS product_price, fd.product_type, f.ref ";
 		$sql2 .= "FROM ".MAIN_DB_PREFIX."facturedet AS fd, ".MAIN_DB_PREFIX."facture AS f ";
 		$sql2 .= "WHERE f.rowid = fd.fk_facture AND f.entity IN (".getEntity('user',1).") AND fd.fk_facture IN (";
 
